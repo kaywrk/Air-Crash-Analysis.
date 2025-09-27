@@ -6,7 +6,7 @@ import numpy as np
 
 def load_data():
     #import data
-    df = pd.read_csv("aircrashesFullDataUpdated_2024.csv")
+    df = pd.read_csv("aircrahesFullDataUpdated_2024.csv")
     #remove null values
     df = df.dropna()
     #to remove rows with "'-" and "10" as the Country/Region
